@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyEshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="search.css"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script>
+        $(document).ready(function() {
+        $(".default_option").click(function(){
+            $(".dropdown ul").addClass("active");
+          });
+          
+          $(".dropdown ul li").click(function(){
+            var text = $(this).text();
+            $(".default_option").text(text);
+            $(".dropdown ul").removeClass("active");
+          });
+        });
+    </script>
+</head>
+<body>
+
+
+
+   <header>
+
+<input type="checkbox" name="" id="toggler">
+<label for = "toggler" class="fas fa-bars"></label>
+<a href="#" class="logo"><img src="black.png" height="100px" width="100px"></a>
+<div class="wrapper">
+    <div class="search_box">  
+            
+    
+        <div class="search_field">
+          <input type="text" class="input" placeholder="Search">
+          <i class="fas fa-search"></i>
+      </div>
+    </div>
+</div>
+    <nav class="navbar">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Products</a>
+        <a href="">Review</a>
+        <a href="">Contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>  
+            <a href="C:\Users\User\Desktop\MyEshop\login.html" class="fas fa-user"></a> 
+        </div>
+
+   </header>
+
+
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>
+               About Us
+            </h3>
+            <span>
+                Foundation
+            </span>
+            <p>Webinnovative is your place for athletic and easygoing shoes for the entire family from many name brands. You’ll discover styles for ladies, men and children from brands like Nike, Converse, Vans, Sperry, Madden Girl, Skechers, ASICS and then some!
+
+                With stores in the India. furthermore, Canada and much more choice online at Famous.com and FamousFootwear.ca, ‘Webinnovative’ is a main family footwear goal for the popular brands you know and love.
+                
+                ‘Webinnovative’ is a piece of parent Inc., an assorted arrangement of worldwide footwear brands. Joined, these brands enable make to parent an organization with both an inheritance and a mission. Parent organization’ inheritance incorporates over 130-long stretches of craftsmanship, an enthusiasm for fit and a business canny, with a mission to keep on rousing individuals to feel better… feet first.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+</body>
+</html>
